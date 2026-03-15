@@ -1,19 +1,19 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
 // Import translation files
-import translationEN from './locales/en/translations.json';
-import translationJP from './locales/jp/translations.json';
+import translationEN from "./locales/en/translations.json";
+import translationJP from "./locales/jp/translations.json";
 
 // the translations
 const resources = {
   en: {
-    translation: translationEN
+    translation: translationEN,
   },
   jp: {
-    translation: translationJP
-  }
+    translation: translationJP,
+  },
 };
 
 i18n
@@ -21,17 +21,24 @@ i18n
   .use(initReactI18next) // pass i18n instance to react-i18next
   .init({
     resources,
-    fallbackLng: 'en', // use en if detected lng is not available
-    debug: process.env.NODE_ENV === 'development',
-    
+    fallbackLng: "en", // use en if detected lng is not available
+    debug: import.meta.env.DEV,
+
     interpolation: {
-      escapeValue: false // react already safes from xss
+      escapeValue: false, // react already safes from xss
     },
-    
+
     detection: {
-      order: ['localStorage', 'cookie', 'navigator', 'htmlTag', 'path', 'subdomain'],
-      caches: ['localStorage', 'cookie']
-    }
+      order: [
+        "localStorage",
+        "cookie",
+        "navigator",
+        "htmlTag",
+        "path",
+        "subdomain",
+      ],
+      caches: ["localStorage", "cookie"],
+    },
   });
 
 export default i18n;

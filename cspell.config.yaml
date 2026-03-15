@@ -1,0 +1,34 @@
+version: "0.2"
+language: en
+ignorePaths:
+  - .vscode/**
+  - node_modules/**
+  - .pnpm-store/**
+  - dist
+  - build/**
+  - dist/**
+  - "**/*.d.ts"
+  - "**/*.map"
+  - "**/*.min.js"
+  - "**/*.svg"
+  - .git/**/*
+  - .gitignore
+  - package.json
+  - pnpm-lock.yaml
+words:
+  - aupp
+  - fhsu
+  - mouyheang
+  - seng
+  - Heang
+  - postgre
+  - languagedetector
+  - Seng
+  - Mouyheang
+  - Poung
+  - Streamlit
+  - Postgre
+  - nameholder
+  - emailholder
+  - subjectholder
+  - AUPP

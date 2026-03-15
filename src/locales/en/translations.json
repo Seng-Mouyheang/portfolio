@@ -23,32 +23,37 @@
   "about": {
     "description": "Hello, I'm Mouyheang! I’m an undergraduate Computer Science student at the American University of Phnom Penh with a strong interest in front-end development and artificial intelligence.\n\nI enjoy writing short code snippets to practice problem-solving concepts and enhance my logical thinking and creativity. I’m motivated to continuously learn new technologies and improve my skills in order to contribute to meaningful and impactful projects.\n\nCurrently, I’m looking for opportunities to gain real-world experience through projects, internships, and collaborative work.",
     "subtitle": {
-        "description": "Description",
-        "education": "Education",
-        "interests": "Interests"
+      "description": "Description",
+      "education": "Education",
+      "interests": "Interests"
     },
-    
+
     "education": {
-        "aupp": {
-            "title": "American University of Phnom Penh",
-            "location": "Phnom Penh, Cambodia",
-            "year": "2023 - Present",
-            "degree": "Bachelor of Information Technology Management"
-        },
-        "fhsu": {
-            "title": "Fort Hays State University (Dual Degree Program)",
-            "location": "Kansas, United States",
-            "year": "2023 - Present",
-            "degree": "Bachelor of Science in Computer Science"
-        },
-        "hs": {
-            "title": "Toul Tum Poung High School",
-            "location": "Phnom Penh, Cambodia",
-            "year": "2012 - 2022",
-            "degree": "Diploma of Baccalaureate Certificate"
-        }
+      "aupp": {
+        "title": "American University of Phnom Penh",
+        "location": "Phnom Penh, Cambodia",
+        "year": "2023 - Present",
+        "degree": "Bachelor of Information Technology Management"
+      },
+      "fhsu": {
+        "title": "Fort Hays State University (Dual Degree Program)",
+        "location": "Kansas, United States",
+        "year": "2023 - Present",
+        "degree": "Bachelor of Science in Computer Science"
+      },
+      "hs": {
+        "title": "Toul Tum Poung High School",
+        "location": "Phnom Penh, Cambodia",
+        "year": "2012 - 2022",
+        "degree": "Diploma of Baccalaureate Certificate"
+      }
     },
-    "interests": ["Web Development & UI/UX Design", "Graphic & Logo Design", "Photography & Digital Art", "Music & Outdoor Activities"],
+    "interests": [
+      "Web Development & UI/UX Design",
+      "Graphic & Logo Design",
+      "Photography & Digital Art",
+      "Music & Outdoor Activities"
+    ],
     "email": "sengmouyheang2207@gmail.com",
     "phone": "+ (855) 77 959 401",
     "location": "Phnom Penh, Cambodia"
@@ -65,14 +70,14 @@
     {
       "id": 2,
       "title": "To do List Application",
-      "description": "A simplicit minimal task management application that allows user to manage and keep track of their task at hands by creating, editting, deleting, and filtering tasks.",
+      "description": "A simplistic minimal task management application that allows user to manage and keep track of their task at hands by creating, editing, deleting, and filtering tasks.",
       "tech": ["React", "Firebase", "Tailwind CSS"],
       "link": "https://todo-list-application-30a95.web.app/"
     },
     {
       "id": 3,
-      "title": "Liscense Plate recognition",
-      "description": "A simple application that read the number and region on the liscense plate of Cambodia vehicle's plate.",
+      "title": "License Plate recognition",
+      "description": "A simple application that read the number and region on the license plate of Cambodia vehicle's plate.",
       "tech": ["Python", "API Integration", "Streamlit"],
       "github": "https://github.com/Seng-Mouyheang/Cambodia_Liscense_Plate_Recognition"
     },
