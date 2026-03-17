@@ -113,8 +113,9 @@
       "skills": [
         { "name": "React", "level": 75 },
         { "name": "HTML5 & CSS3", "level": 85 },
-        { "name": "JavaScript", "level": 75 },
-        { "name": "Tailwind CSS", "level": 70 }
+        { "name": "JavaScript", "level": 80 },
+        { "name": "Tailwind CSS", "level": 70 },
+        { "name": "Svelte", "level": 70 }
       ]
     },
     {
@@ -139,6 +140,7 @@
       "skills": [
         { "name": "MySQL", "level": 75 },
         { "name": "Postgre SQL", "level": 75 },
+        { "name": "MongoDB", "level": 60 },
         { "name": "Git", "level": 85 },
         { "name": "Github", "level": 85 }
       ]
@@ -163,10 +165,11 @@
         "light": "from-black via-zinc-500 to-zinc-300"
       },
       "skills": [
-        { "name": "Python", "level": 85 },
-        { "name": "JavaScript", "level": 75 },
-        { "name": "Java", "level": 75 },
-        { "name": "C++", "level": 75 }
+        { "name": "Python", "level": 80 },
+        { "name": "TypeScript", "level": 70 },
+        { "name": "Java", "level": 65 },
+        { "name": "PHP", "level": 65 },
+        { "name": "C++", "level": 80 }
       ]
     }
   ],

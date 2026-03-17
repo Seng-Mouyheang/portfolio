@@ -16,7 +16,7 @@ const Skill = ({ skillImages }) => {
   });
 
   return (
-    <section id="skills" className="py-12 md:py-20">
+    <section id="skills" className="py-10 md:py-14">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
           <h2
