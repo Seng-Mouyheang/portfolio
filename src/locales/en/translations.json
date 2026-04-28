@@ -17,7 +17,7 @@
   "title": {
     "about": "About Me",
     "skills": "Skills & Technologies",
-    "projects": "My Projects"
+    "projects": "Featured Projects"
   },
 
   "about": {
@@ -64,14 +64,14 @@
       "id": 1,
       "title": "Mood Tracker",
       "description": "A cozy, user-friendly platform designed to help users monitor their mental well-being through mood, sleep, hydration, exercise, and social activity tracking.",
-      "tech": ["HTML", "CSS", "JavaScript", "PHP"],
+      "tech": ["HTML", "CSS", "JavaScript", "PHP", "CPanel"],
       "link": "https://mseng2.infprojects.fhsu.edu/blumi/"
     },
     {
       "id": 2,
       "title": "To do List Application",
       "description": "A simplistic minimal task management application that allows user to manage and keep track of their task at hands by creating, editing, deleting, and filtering tasks.",
-      "tech": ["React", "Firebase", "Tailwind CSS"],
+      "tech": ["React", "Firebase", "Tailwind CSS", "Github Page"],
       "link": "https://todo-list-application-30a95.web.app/"
     },
     {
@@ -88,6 +88,49 @@
       "tech": ["React", "Firebase", "Tailwind CSS"],
       "link": "#",
       "github": "https://github.com/Seng-Mouyheang/Portfolio"
+    },
+    {
+      "id": 5,
+      "title": "Button Counter",
+      "description": "A simple application for counting button clicks.",
+      "tech": ["SvelteKit", "Turso/SQLite", "Tailwind CSS", "Vitest"],
+      "github": "https://github.com/Ngovkimyou/Group2---button-counter"
+    },
+    {
+      "id": 6,
+      "title": "Japanese Quiz",
+      "description": "A simple quiz application for testing knowledge of the Japanese language.",
+      "tech": [
+        "SvelteKit",
+        "Turso/SQLite",
+        "Tailwind CSS",
+        "Eslint",
+        "Netlify"
+      ],
+      "link": "https://quiz-game-group2.netlify.app/",
+      "github": "https://github.com/Ngovkimyou/quiz-game"
+    },
+    {
+      "id": 7,
+      "title": "Space and Time Social Media",
+      "description": "A simple social media platform for connecting people and sharing experiences.",
+      "tech": [
+        "SvelteKit",
+        "Neon/Postgre",
+        "Cloudinary",
+        "Tailwind CSS",
+        "Eslint",
+        "Vercel"
+      ],
+      "link": "https://space-and-time-social-media.vercel.app/",
+      "github": "https://github.com/Ngovkimyou/social-media"
+    },
+    {
+      "id": 8,
+      "title": "StoryHub",
+      "description": "A simple social media like platform for any range of authors to share their stories and experiences.",
+      "tech": ["React", "Node.js", "Express", "Tailwind CSS", "MongoDB"],
+      "github": "https://github.com/Seng-Mouyheang/Story-Hub"
     }
   ],
 

@@ -63,14 +63,14 @@
       "id": 1,
       "title": "気分トラッカー",
       "description": "ユーザーが気分・睡眠・水分摂取・運動・ソーシャル活動を記録し、精神衛生の状態を管理できる使いやすいプラットフォームです。",
-      "tech": ["HTML", "CSS", "JavaScript", "PHP"],
+      "tech": ["HTML", "CSS", "JavaScript", "PHP", "CPanel"],
       "link": "https://mseng2.infprojects.fhsu.edu/blumi/"
     },
     {
       "id": 2,
       "title": "やることリストアプリケーション",
       "description": "タスクの作成・編集・削除・フィルタリングができる簡単でミニマルなタスク管理アプリケーションです。",
-      "tech": ["React", "Firebase", "Tailwind CSS"],
+      "tech": ["React", "Firebase", "Tailwind CSS", "Github Page"],
       "link": "https://todo-list-application-30a95.web.app/"
     },
     {
@@ -87,6 +87,49 @@
       "tech": ["React", "Firebase", "Tailwind CSS"],
       "link": "#",
       "github": "https://github.com/Seng-Mouyheang/Portfolio"
+    },
+    {
+      "id": 5,
+      "title": "ボタンカウンター",
+      "description": "ボタンのクリック数をカウントするシンプルなアプリケーションです。",
+      "tech": ["SvelteKit", "Turso/SQLite", "Tailwind CSS", "Vitest"],
+      "github": "https://github.com/Ngovkimyou/Group2---button-counter"
+    },
+    {
+      "id": 6,
+      "title": "日本語クイズ",
+      "description": "日本語の知識を試すための、シンプルなクイズアプリケーションです。",
+      "tech": [
+        "SvelteKit",
+        "Turso/SQLite",
+        "Tailwind CSS",
+        "Eslint",
+        "Netlify"
+      ],
+      "link": "https://quiz-game-group2.netlify.app/",
+      "github": "https://github.com/Ngovkimyou/quiz-game"
+    },
+    {
+      "id": 7,
+      "title": "空間と時間 ソーシャルメディア",
+      "description": "人々とつながり、体験を共有するためのシンプルなSNSプラットフォームです。",
+      "tech": [
+        "SvelteKit",
+        "Neon/Postgre",
+        "Cloudinary",
+        "Tailwind CSS",
+        "Eslint",
+        "Vercel"
+      ],
+      "link": "https://space-and-time-social-media.vercel.app/",
+      "github": "https://github.com/Ngovkimyou/social-media"
+    },
+    {
+      "id": 8,
+      "title": "ストーリーハブ",
+      "description": "あらゆるジャンルの作者が物語や体験を共有できる、シンプルなSNSプラットフォームです。",
+      "tech": ["React", "Node.js", "Express", "Tailwind CSS", "MongoDB"],
+      "github": "https://github.com/Seng-Mouyheang/Story-Hub"
     }
   ],
 
